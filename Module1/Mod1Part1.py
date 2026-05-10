@@ -1,6 +1,6 @@
 # Ask the user for two numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
 # Perform addition and subtraction
 addition = num1 + num2
