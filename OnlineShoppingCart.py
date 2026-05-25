@@ -5,7 +5,7 @@ Date: 19 May 2026
 Description: Shopping cart program with menu system.
 """
 
-# Step 1: ItemToPurchase class
+# Step 1-3: ItemToPurchase class
 class ItemToPurchase:
     """Represents an item in the shopping cart."""
 
@@ -25,7 +25,6 @@ class ItemToPurchase:
 
     def get_total_cost(self):
         return self.item_price * self.item_quantity
-
 
 # Step 4: ShoppingCart class
 class ShoppingCart:
